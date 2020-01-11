@@ -1,12 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-
-int sum(float a, float b)
-{
-float c = a + b;
-printf("%f+%f=%f", a, b, c);
-}
+#include 'sum.h'
+#include 'subt.h'
+#include 'mult.h'
+#include 'div.h'
 
 int main()
 {
@@ -16,4 +13,7 @@ int main()
     scanf("%f", &a);
     scanf("%f", &b);
     sum(a , b);
+    subt(a , b);
+    mult(a , b);
+    div(a , b);
 }
