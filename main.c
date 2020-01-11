@@ -15,5 +15,5 @@ int main()
     sum(a , b);
     subt(a , b);
     mult(a , b);
-    div(a , b);
+    div(a , b)
 }
