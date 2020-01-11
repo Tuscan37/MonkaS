@@ -9,7 +9,7 @@ int main()
 {
     float a;
     float b;
-    printf("Wprowadz 2 liczby:\n");
+    printf("Wprowadz 2 liczby :\n");
     scanf("%f", &a);
     scanf("%f", &b);
     sum(a , b);
